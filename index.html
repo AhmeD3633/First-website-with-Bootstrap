@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website-3-BS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/all.css">
+    
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+        <a href="#" class="navbar-brand" style="margin-left: 20px;">
+                <img src="images/logo.jpg" alt="logo" class="rounded" style="width: 70px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="font-weight: 600; color: gray;">
+                                Projects
+                              </button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">New Zayed</a>
+                                <a class="dropdown-item" href="#">New Mansura</a>
+                                <a class="dropdown-item" href="#">Elalamen</a>
+                                <a class="dropdown-item" href="#">Others</a>
+                              </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link about">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control  mr-sm-2 search-bar" type="text" placeholder="Search">
+                    <button class="btn search-btn" type="submit">Search</button>
+                    <button type="button" class="btn login-btn" data-toggle="modal" data-target="#myModal">Login</button>
+                </form>
+
+        </div>
+  
+       
+  </nav>
+  <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form class="login-form" action="/action_page.php">
+                        <div class="form-group">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control login-input" placeholder="Enter email" id="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control login-input" placeholder="Enter password" id="pwd">
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                          </label>
+                        </div>
+                       
+                    </form>
+                      
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger modal-btn" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary modal-btn">Submit</button>
+                  </div>
+            </div>
+        </div>
+  </div>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <div class="carousel-inner slider">
+          <div class="carousel-item active">
+                <img src="images/new-zayed-city.jpg" class="img-slider">
+                <div class="carousel-caption">
+                    <h3>New Zayed city</h3>
+                    <p>Best place to stay in </p>
+                    <button class="learn-more-btn">Learn more</button>
+                </div>
+                
+            </div>
+          <div class="carousel-item">
+            <img src="images/MansouraCity0.jpg" class="img-slider">
+            <div class="carousel-caption">
+                <h3>New Mansura city</h3>
+                <p>Lorem ipsum dolor sit amet </p>
+                <button class="learn-more-btn">Learn more</button>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover_image03e4e8bd-0f1d-4a40-8dbe-fc350a64da36.jpg" class="img-slider">
+            <div class="carousel-caption">
+                <h3>New Alamein City</h3>
+                <p>The new capital</p>
+                <button class="learn-more-btn">Learn more</button>
+            </div>
+          </div>
+        </div>
+      
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+  </div>
+  <span class="line"></span>
+  <div class="icons">
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram-square"></i></a>
+  </div>
+  <div class=" welcome-section">
+    <div class="welcome-content">
+      <h2>Welcome</h2>
+      <p>Are you tring to inviste in EGYPT ? We can show you the best existing Projects. </p>
+      <button>Learn more</button>
+    </div>
+    
+  </div>
+  <span class="line"></span>
+  <div>
+    <div class="popular">
+      <div class="popular-title">
+        <h2 style="font-weight: 800;">Popular projects in EGYPT.</h2>
+      </div>
+      <div id="accordion">
+  
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              New-Zayed-city.
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              The new Sheikh Zayed City is an extension of Sheikh Zayed and is located on an area of ​​21 thousand acres northwest of Sheikh Zayed City and was established to be the size of Sheikh Zayed City to accommodate a larger number of residents of the two cities, reaching 650,000 people, double the current population, as the new Sheikh Zayed City It includes many social and luxury residential projects, economic housing and youth housing, and lands will be offered to citizens and investors. The new Sheikh Zayed is distinguished by its distinctive planning in terms of green spaces and wide roads, which include many facilities and service areas according to the citizen needs
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+              New-Mansura-city.
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              New Mansoura City is one of the cities affiliated to the New Urban Communities Authority, which was built according to a republican decree in 2017 to be used to build a new urban community. It was scheduled to be finalized by 2018.
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              New-Alamin-city.
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              The Minister of Housing demonstrated the project as shown in the attached video (from 38:30 to 48:29).
+  
+              - The New El-Alamein City is an integrated city at the heart of the North West Coast.
+  
+              - New El-Alamein City includes all residential activities, cultural, tourist, industrial and research areas, a private university, international hotels, two presidential and cabinet buildings.
+  
+              - It is implemented on a total area of 48, 917 thousand feddans.
+  
+              - The targeted number of residents are nearly 3 million people.
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <span class="line"></span>
+    </div>
+  
+    <div class="translate">
+      <div class="translate-title">
+        <h2>Translate from Arabic to English.</h2>
+      </div>
+      <div class="translate-content">
+        <p>Write and Translate <span>Press Here.</span></p>
+        <a  data-toggle="tooltip" title="text cpied!" class="copy-btn">Copy</a>
+        <div class="form-group">
+          <label for="comment"></label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+    <span class="line"></span>
+
+    <div class="translate">
+      <div class="translate-title">
+        <h2>Translate from Arabic to FRENCH.</h2>
+      </div>
+      <div class="translate-content">
+        <p>Write and Translate <span>Press Here.</span></p>
+        <a  data-toggle="tooltip" title="text cpied!" class="copy-btn">Copy</a>
+        <div class="form-group">
+          <label for="comment"></label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+    <span class="line"></span>
+
+    <div class="translate">
+      <div class="translate-title">
+        <h2>Translate from Arabic to GERMAN.</h2>
+      </div>
+      <div class="translate-content">
+        <p>Write and Translate <span>Press Here.</span></p>
+        <a  data-toggle="tooltip" title="text cpied!" class="copy-btn">Copy</a>
+        <div class="form-group">
+          <label for="comment"></label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Translate:"></textarea>
+        </div>
+      </div>
+    </div>
+    <span class="line"></span>
+
+  </div>
+
+  <div class="projects-title">
+    <h2>Popular projects in EGYPT.</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;;">
+        <img class="card-img-top" src="images/new-zayed-city.jpg" alt="Card image">
+        <div class="card-body card-content">
+          <h4 class="card-title" style="font-weight: 600;">New-Zayed-city.</h4>
+          <p class="card-text">Best place to stay in.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;">
+        <img class="card-img-top" src="images/MansouraCity0.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: 600;">New-Mansura-city.</h4>
+          <p class="card-text">One of the biggest projects.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;">
+        <img class="card-img-top" src="images/cover_image03e4e8bd-0f1d-4a40-8dbe-fc350a64da36.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: 600;">New-Alamin-city</h4>
+          <p class="card-text">The new capital.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;;">
+        <img class="card-img-top" src="images/new-zayed-city.jpg" alt="Card image">
+        <div class="card-body card-content">
+          <h4 class="card-title" style="font-weight: 600;">New-Zayed-city.</h4>
+          <p class="card-text">Best place to stay in.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;">
+        <img class="card-img-top" src="images/MansouraCity0.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: 600;">New-Mansura-city.</h4>
+          <p class="card-text">One of the biggest projects.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 projects-cards">
+      <div class="card card-6" style="width: 380px; height:420px;">
+        <img class="card-img-top" src="images/cover_image03e4e8bd-0f1d-4a40-8dbe-fc350a64da36.jpg" alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: 600;">New-Alamin-city</h4>
+          <p class="card-text">The new capital.</p>
+          <a  class="btn btn-primary learn-more-link">Learn more!</a>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+  <span class="line"></span>
+
+  <div class="projects-title">
+    <h2>Thanks For.</h2>
+  </div>
+
+  <div class="row" style="padding-left: 70px; padding-top: 40px; ">
+    <div class="col-xl-4 col-12 thanks-div">
+      <div class="card thanks-card" style="width:350px; height: auto;">
+        <img class="card-img-top" src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg" alt="Card image" style="object-fit: contain;">
+        <div class="card-img-overlay thanks-for-overlay">
+          <h4 class="card-title">Ahmed Elsherbiny</h4>
+          <p class="card-text">Frontend Devoloper</p>
+          <img src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 thanks-div">
+      <div class="card thanks-card" style="width:350px; height: auto;">
+        <img class="card-img-top" src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg" alt="Card image" style="object-fit: contain;">
+        <div class="card-img-overlay thanks-for-overlay">
+          <h4 class="card-title">Ahmed Elsherbiny</h4>
+          <p class="card-text">Frontend Devoloper</p>
+          <img src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-12 thanks-div">
+      <div class="card thanks-card" style="width:350px; height: auto;">
+        <img class="card-img-top" src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg" alt="Card image" style="object-fit: contain;">
+        <div class="card-img-overlay thanks-for-overlay">
+          <h4 class="card-title">Ahmed Elsherbiny</h4>
+          <p class="card-text">Frontend Devoloper</p>
+          <img src="images/WhatsApp Image 2023-10-19 at 4.13.11 PM.jpeg">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="line"></span>
+
+  <div class="projects-title">
+    <h2>Best Projcets in EGYPT.</h2>
+  </div>
+
+  <div class="container">
+    <div class="podcast row">
+      <div class="podcast-content">
+        <h2>New-Zayed-city.</h2>
+        <i class="fas fa-calendar-alt"></i>
+        <p class="date">Mon,May, 25th 2020</p>
+        <span class="underline"></span>
+        <p>The new Sheikh Zayed City is an extension of Sheikh Zayed and is located on an area of ​​21 thousand acres northwest of Sheikh Zayed City and was established to be the size of Sheikh Zayed City to accommodate a larger number of residents of the two cities, reaching 650,000 people, double the current population, as the new Sheikh Zayed City It includes many social and luxury residential projects, economic housing and youth housing, and lands will be offered to citizens and investors.</p>
+        <div class="icons-2 row">
+          <div class="icon-1">
+            <i class="fas fa-tag"></i>
+            <span>Podcast</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-clock"></i>
+            <span>55 mins</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-play"></i>
+            <span>Play Episode</span>
+          </div>
+        </div>
+      </div>
+      <div class="podcast-img">
+
+      </div>
+  
+    </div>
+    <div class="podcast row">
+      <div class="podcast-img" style="background-image:url(images/MansouraCity0.jpg);">
+
+      </div>
+      <div class="podcast-content">
+        <h2>New-Mansura-city.</h2>
+        <i class="fas fa-calendar-alt"></i>
+        <p class="date">Mon,May, 25th 2020</p>
+        <span class="underline"></span>
+        <p>New Mansoura City is one of the cities affiliated to the New Urban Communities Authority, which was built according to a republican decree in 2017 to be used to build a new urban community. It was scheduled to be finalized by 2018.</p>
+        <div class="icons-2 row">
+          <div class="icon-1">
+            <i class="fas fa-tag"></i>
+            <span>Podcast</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-clock"></i>
+            <span>55 mins</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-play"></i>
+            <span>Play Episode</span>
+          </div>
+        </div>
+      </div>
+     
+  
+    </div>
+    <div class="podcast row">
+      <div class="podcast-content">
+        <h2>New-Alamin-city.</h2>
+        <i class="fas fa-calendar-alt"></i>
+        <p class="date">Mon,May, 25th 2020</p>
+        <span class="underline"></span>
+        <p>The Minister of Housing demonstrated the project as shown in the attached video (from 38:30 to 48:29). - The New El-Alamein City is an integrated city at the heart of the North West Coast. - New El-Alamein City includes all residential activities, cultural, tourist, industrial and research areas, a private university, international hotels, two presidential and cabinet buildings. - It is implemented on a total area of 48, 917 thousand feddans. - The targeted number of residents are nearly 3 million people.</p>
+        <div class="icons-2 row">
+          <div class="icon-1">
+            <i class="fas fa-tag"></i>
+            <span>Podcast</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-clock"></i>
+            <span>55 mins</span>
+          </div>
+          <div class="icon-1">
+            <i class="fas fa-play"></i>
+            <span>Play Episode</span>
+          </div>
+        </div>
+      </div>
+      <div class="podcast-img" style="background-image:url(images/cover_image03e4e8bd-0f1d-4a40-8dbe-fc350a64da36.jpg);">
+
+      </div>
+     
+  
+    </div>
+   
+    
+  </div>
+  <span class="line"></span>
+  <div class="projects-title">
+    <h2>Join us.</h2>
+  </div>
+
+  <div class="join-us row">
+    <div class="join-us-icons"><i class="fab fa-facebook-square facebook-icon"></i></div>
+    <div class="join-us-icons"><i class="fab fa-whatsapp-square whatsapp-icon"></i></div>
+    <div class="join-us-icons"><i class="fab fa-linkedin linkedin-icon"></i></div>
+    <div class="join-us-icons"><i class="fab fa-twitter-square twitter-icon"></i></div>
+
+  </div>
+  <span class="line"></span>
+
+  <div class="footer-clean">
+    <footer>
+        <div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Consultation</a></li>
+                        <li><a href="#">Investment</a></li>
+                        <li><a href="#">suggestion</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-snapchat"></i></i></a><a href="#"><i class="fab fa-instagram"></i></a>
+                    <p class="copyright">Ahmed Elsherbiny.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+ 
+
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

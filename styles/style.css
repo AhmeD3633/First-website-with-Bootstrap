@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0px 10px;
+    
+}
+.navbar{
+    background-color:#ffffff;
+    backdrop-filter: blur(10px);
+}
+a[class="nav-link"]{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.nav-item a{
+    font-weight: 600;
+    
+}
+.about{
+    margin-right: 650px;
+}
+.dropdown-menu{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.search-bar{
+    border: 2px solid rgb(55, 63, 72);
+    /* margin-left: 0px; */
+    
+}
+.search-btn{
+    background-color: white;
+    color: rgb(65, 74, 85);
+    border: 2px solid rgb(55, 63, 72); 
+}
+.search-btn:focus{
+    box-shadow: 0 0 0 0.2rem rgba(55, 63, 72, 0.25);
+}
+.login-btn{
+    margin-left: 10px;
+    color:rgb(65, 74, 85);
+    border: 2px solid rgb(55, 63, 72);
+    margin-right: 20px;
+    background-color: white;
+    
+}
+.login-btn:focus{
+    box-shadow: 0 0 0 0.2rem rgba(55, 63, 72, 0.25);
+     
+}
+.form-control:focus {
+    border-color:rgb(55, 63, 72);
+    box-shadow: 0 0 0 0.2rem rgba(55, 63, 72, 0.25);
+}
+.dropdown-toggle:focus{
+    box-shadow: 0 0 0 0.2rem rgba(55, 63, 72, 0.25);
+}
+.slider{
+    width: 100%;
+    height: 86vh;
+    margin-top: 80px;
+   
+}
+.learn-more-btn{
+    width: 130px;
+    height: 40px;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    background-color: transparent;
+    color: aliceblue;
+    margin-bottom: 10px;
+    backdrop-filter: blur(3px);
+    transition: 0.5s;
+}
+.learn-more-btn:hover{
+    scale: 1.1;
+}
+.img-slider{
+    width: 100%;
+    height: 620px;
+}
+.login-form{
+    padding: 10px;
+    background-color:transparent;
+    /* visibility: hidden; */
+}
+.modal-header{
+    background-color: transparent;
+
+}
+.modal-body{
+    background-color: transparent;
+}
+.modal-footer{
+    background-color: transparent;
+}
+.modal-content{
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+.modal-btn{
+    background-color: transparent;
+}
+.login-input{
+    background-color:transparent;
+    border: 2px solid white;
+}
+.icons{
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+}
+.icons i{
+    display: block;
+    color: aliceblue;
+    margin-top: 15px;
+}
+.welcome-section{
+    width: 100%;
+    height: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-image: url(../images/ehl-real-estate-building.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-color: #49566a;
+    margin-top: 10px;
+}
+.welcome-content{
+    position: absolute;
+    z-index: 10;
+}
+.welcome-content h2{
+    font-size: 35px;
+    background: -webkit-linear-gradient(#ffffff, #001739);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    font-weight: bold;
+}
+.welcome-content p{
+    color: white;
+    font-size: 18px;
+}
+.welcome-content button{
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.welcome-content button:hover{
+    scale: 1.1;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.popular{
+    width: 100%;
+    margin-top:10px ;
+    
+}
+.popular-title{
+    width: 100%;
+    height: 80px;
+    background-color: #49566a;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #001739;
+}
+.card-header a{
+    background: -webkit-linear-gradient(#ffffff, #001739);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+}
+.translate{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    
+}
+.translate-title{
+    width: 100%;
+    height: auto;
+    background-color: #49566a;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #001739;
+    
+
+}
+.translate-title h2{
+    padding: 30px 0px;
+    font-weight: 800;
+}
+.translate-content{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+   
+}
+.translate-content p{
+    font-size: 20px;
+}
+.translate-content p span{
+    background: -webkit-linear-gradient(#ffffff, #001739);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.copy-btn{
+    display: block;
+    background-color: #49566a;
+    color: #ffffff;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding-top: 3px;
+    transition: 0.5s;
+}
+.copy-btn:hover{
+    color: #ffffff;
+    box-shadow: 2px 2px 10px black;
+}
+.projects-title{
+    width: 100%;
+    height: auto;
+    background-color: #49566a;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 20px #001739;
+    
+}
+.projects-title h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.projects-cards{
+    width: 100px;
+    margin-top: 20px;
+    transition: 0.5s;
+    
+}
+.projects-cards:hover{
+    scale: 1.05;
+}
+.card-6{
+    width: auto;
+    background-color: #f7f7f7;
+    margin: auto;
+    border: 2px solid #49566a;
+    padding: 5px;
+    transition: 0.5s;
+}
+.card-6:hover{
+    box-shadow: 5px 5px 10px black;
+}
+.learn-more-link{
+    display: block;
+    margin: auto;
+    background-color: #49566a;
+    border: none;
+    transition: 0.5s;
+    
+}
+.learn-more-link:hover{
+    background-color: #062863;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+.thanks-div{
+    margin-top: 20px;
+    margin: auto;
+    transition: 0.5s;
+
+    
+}
+.thanks-card{
+  border: 2px solid black;
+  padding: 3px;
+}
+.thanks-for-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    transition: 0.3s;
+}
+.thanks-for-overlay:hover{
+    background-color: rgba(1, 60, 133, 0.6);
+}
+.thanks-for-overlay img{
+    width: 70px;
+    margin-top: 300px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.thanks-div:hover{
+    scale: 0.9;
+}
+.project-title{
+    margin: auto;
+}
+.podcast{
+    width: 100%;
+    height: 50vh;
+    background-color: #e8e9eb;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 3px;
+    box-shadow: 0px 0px 15px #49566a;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.podcast-content{
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.date{
+    display: inline;
+}
+.podcast-content p{
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+.underline{
+    height: 4px;
+    width: 140px;
+    background-color: #49566a;
+    display: block;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.podcast-img{
+    width: 30%;
+    background-image: url(../images/new-zayed-city.jpg);
+    background-position: center ;
+    background-size: cover;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+
+}
+.podcast:hover .underline{
+    width: 180px;
+}
+.podcast:hover .podcast-img{
+    scale: 1.1;
+}
+.icon-1{
+    background-color:#bbbfc6 ;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.icon-1:hover{
+    background-color: #49566a;
+    color: white;
+    box-shadow: 5px 5px 10px #001739;
+}
+.join-us-icons{
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #062863;
+
+}
+.join-us-icons i{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #49566a;
+    
+}
+.join-us{
+    padding-top: 30px;
+}
+.facebook-icon,.whatsapp-icon,.linkedin-icon,.twitter-icon{
+    transition: 0.2s;
+    cursor: pointer;
+}
+.facebook-icon:hover{
+    color: #3b5998;
+    
+    
+}
+.whatsapp-icon:hover{
+    color: #25d366;
+}
+.linkedin-icon:hover{
+    color: #0072b1;
+}
+.twitter-icon:hover{
+    color:  #00acee ;
+}
+
+.footer-clean {
+    padding:50px 0;
+    background-color:#49566a;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #001739;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+    margin-left: 10px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    margin-left: 10px;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
